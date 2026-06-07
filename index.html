@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NexaFlow — Build The Future</title>
+  <!-- Clean & Professional Google Typography: Elite pairing of Plus Jakarta Sans (Headings) and Inter (Body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet font-display-swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Global scroll progress indicator banner -->
+<div id="progress-bar"></div>
+
+<!-- Accessible scroll to top control -->
+<a href="#hero" id="back-top" aria-label="Back to top">↑</a>
+
+<!-- Navigation Header -->
+<nav id="navbar">
+  <a href="#" class="nav-logo">Nexa<span>Flow</span></a>
+  <ul class="nav-links">
+    <li><a href="#features">Features</a></li>
+    <li><a href="#how">How It Works</a></li>
+    <li><a href="#pricing">Pricing</a></li>
+    <li><a href="#testimonials">Testimonials</a></li>
+    <li><a href="#faq">FAQ</a></li>
+  </ul>
+  <a href="#cta" class="nav-cta">Get Started</a>
+  <div class="hamburger" id="ham" aria-label="Toggle Navigation Menu">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- Responsive Mobile Navigation Drawer -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#features" class="mm-link">Features</a>
+  <a href="#how" class="mm-link">How It Works</a>
+  <a href="#pricing" class="mm-link">Pricing</a>
+  <a href="#testimonials" class="mm-link">Testimonials</a>
+  <a href="#faq" class="mm-link">FAQ</a>
+  <a href="#cta" class="btn-primary" style="text-align:center">Get Started</a>
+</div>
+
+<!-- Hero Presentation Section -->
+<section id="hero">
+  <div class="hero-grid-bg"></div>
+  <div class="hero-glow"></div>
+  <div class="hero-glow2"></div>
+  <div class="hero-content">
+    <div class="hero-badge">✦ Now in public beta — free to start</div>
+    <h1>Build products<br><span class="line2">at light speed.</span></h1>
+    <p class="hero-sub">NexaFlow is the developer platform that turns ideas into scalable products — with intelligent automation, real-time collaboration, and a DX you'll actually enjoy.</p>
+    <div class="hero-actions">
+      <a href="#cta" class="btn-primary">Start for free →</a>
+      <a href="#how" class="btn-secondary">See how it works</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat-item">
+        <div class="stat-num">40<span>k+</span></div>
+        <div class="stat-label">Developers</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">99<span>.9%</span></div>
+        <div class="stat-label">Uptime SLA</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">8<span>x</span></div>
+        <div class="stat-label">Faster Shipping</div>
+      </div>
+    </div>
+  </div>
+  <div class="hero-visual">
+    <div class="orbit-wrap">
+      <div class="orbit-core">NF</div>
+      <div class="orbit-ring"><div class="orbit-dot"></div></div>
+      <div class="orbit-ring"><div class="orbit-dot2"></div></div>
+      <div class="orbit-ring"></div>
+    </div>
+  </div>
+</section>
+
+<!-- Continuous Infinity Marquee Highlights -->
+<div class="marquee-section">
+  <div class="marquee-track" id="marquee">
+    <div class="marquee-item">Zero Downtime Deploys</div>
+    <div class="marquee-item">Edge Runtime</div>
+    <div class="marquee-item">Real-time Collab</div>
+    <div class="marquee-item">AI Code Review</div>
+    <div class="marquee-item">Instant Previews</div>
+    <div class="marquee-item">Type-safe APIs</div>
+    <div class="marquee-item">Global CDN</div>
+    <div class="marquee-item">Observability Suite</div>
+    <div class="marquee-item">Zero Downtime Deploys</div>
+    <div class="marquee-item">Edge Runtime</div>
+    <div class="marquee-item">Real-time Collab</div>
+    <div class="marquee-item">AI Code Review</div>
+    <div class="marquee-item">Instant Previews</div>
+    <div class="marquee-item">Type-safe APIs</div>
+    <div class="marquee-item">Global CDN</div>
+    <div class="marquee-item">Observability Suite</div>
+  </div>
+</div>
+
+<!-- Features Index Grid -->
+<section id="features">
+  <div class="section-label reveal">Platform Features</div>
+  <h2 class="section-title reveal">Everything you need.<br>Nothing you don't.</h2>
+  <p class="section-desc reveal">A complete development platform that scales from solo side-project to enterprise — without switching tools or re-architecting.</p>
+  <div class="features-grid">
+    <div class="feature-card reveal">
+      <div class="feature-icon">⚡</div>
+      <div class="feature-title">Instant Deploys</div>
+      <p class="feature-text">Push to main and watch your changes go live in under 3 seconds. Automatic rollbacks keep you safe.</p>
+    </div>
+    <div class="feature-card reveal">
+      <div class="feature-icon">🤖</div>
+      <div class="feature-title">AI Code Review</div>
+      <p class="feature-text">Every PR gets an intelligent review — catching bugs, security issues, and performance regressions automatically.</p>
+    </div>
+    <div class="feature-card reveal">
+      <div class="feature-icon">🌐</div>
+      <div class="feature-title">Edge Runtime</div>
+      <p class="feature-text">Your code runs at the network edge across 300+ locations worldwide. Sub-10ms response times, globally.</p>
+    </div>
+    <div class="feature-card reveal">
+      <div class="feature-icon">🔒</div>
+      <div class="feature-title">Zero-trust Security</div>
+      <p class="feature-text">End-to-end encryption, automatic secret rotation, and SOC 2 Type II compliance baked in from day one.</p>
+    </div>
+    <div class="feature-card reveal">
+      <div class="feature-icon">📊</div>
+      <div class="feature-title">Observability Suite</div>
+      <p class="feature-text">Traces, metrics, and logs in one unified view. Debug production issues in minutes, not hours.</p>
+    </div>
+    <div class="feature-card reveal">
+      <div class="feature-icon">🤝</div>
+      <div class="feature-title">Real-time Collab</div>
+      <p class="feature-text">Branching previews, team environments, and multiplayer editing — your whole team on the same page.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Continuous Pipeline Step Orchestrations -->
+<section id="how">
+  <div>
+    <div class="section-label reveal">Process</div>
+    <h2 class="section-title reveal">From idea to production<br>in three steps.</h2>
+    <div class="steps-list">
+      <div class="step reveal">
+        <div class="step-num">01</div>
+        <div>
+          <div class="step-title">Connect your repository</div>
+          <p class="step-text">Link GitHub, GitLab, or Bitbucket in seconds. NexaFlow automatically detects your framework and configures optimal build settings.</p>
+        </div>
+      </div>
+      <div class="step reveal">
+        <div class="step-num">02</div>
+        <div>
+          <div class="step-title">Configure your pipeline</div>
+          <p class="step-text">Define environments, set up secrets, and configure your deployment rules — all from a beautiful visual dashboard or plain YAML.</p>
+        </div>
+      </div>
+      <div class="step reveal">
+        <div class="step-num">03</div>
+        <div>
+          <div class="step-title">Ship with confidence</div>
+          <p class="step-text">Every deploy is previewed, reviewed, and monitored. Catch issues before they reach users with intelligent canary releases.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="how-visual reveal">
+    <div class="code-badge">nexaflow.yml</div>
+    <div class="terminal-dots"><span></span><span></span><span></span></div>
+    <div class="code-block">
+      <div class="code-line"><span class="ln">1</span><span class="cm"># NexaFlow pipeline config</span></div>
+      <div class="code-line"><span class="ln">2</span><span class="kw">name</span>: <span class="str">production</span></div>
+      <div class="code-line"><span class="ln">3</span></div>
+      <div class="code-line"><span class="ln">4</span><span class="kw">on</span>:</div>
+      <div class="code-line"><span class="ln">5</span>&nbsp;&nbsp;<span class="fn">push</span>: <span class="str">main</span></div>
+      <div class="code-line"><span class="ln">6</span></div>
+      <div class="code-line"><span class="ln">7</span><span class="kw">deploy</span>:</div>
+      <div class="code-line"><span class="ln">8</span>&nbsp;&nbsp;<span class="fn">runtime</span>: <span class="str">edge</span></div>
+      <div class="code-line"><span class="ln">9</span>&nbsp;&nbsp;<span class="fn">regions</span>: <span class="str">[iad, sfo, lhr]</span></div>
+      <div class="code-line"><span class="ln">10</span>&nbsp;&nbsp;<span class="fn">strategy</span>: <span class="str">canary</span></div>
+      <div class="code-line"><span class="ln">11</span>&nbsp;&nbsp;<span class="fn">rollback</span>: <span class="str">automatic</span></div>
+      <div class="code-line"><span class="ln">12</span></div>
+      <div class="code-line"><span class="ln">13</span><span class="kw">monitor</span>:</div>
+      <div class="code-line"><span class="ln">14</span>&nbsp;&nbsp;<span class="fn">alerts</span>: <span class="str">p95 &gt; 100ms</span></div>
+      <div class="code-line"><span class="ln">15</span>&nbsp;&nbsp;<span class="fn">notify</span>: <span class="str">slack, email</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- Pricing Options -->
+<section id="pricing">
+  <div class="section-label reveal">Pricing</div>
+  <h2 class="section-title reveal">Simple, honest pricing.</h2>
+  <p class="section-desc reveal">No hidden fees. No per-seat shocks. Scale confidently with pricing that grows with you.</p>
+  <div class="pricing-grid">
+    <div class="pricing-card reveal">
+      <div class="plan-name">Hobby</div>
+      <div class="plan-price"><sup>$</sup>0<span> / mo</span></div>
+      <div class="plan-desc">For side projects and learning.</div>
+      <hr class="plan-divider">
+      <ul class="plan-features">
+        <li>3 projects</li>
+        <li>50GB bandwidth</li>
+        <li>Community support</li>
+        <li>Shared edge nodes</li>
+        <li class="off">AI code review</li>
+        <li class="off">Custom domains</li>
+      </ul>
+      <a href="#" class="plan-btn outline">Start free</a>
+    </div>
+    <div class="pricing-card featured reveal">
+      <div class="plan-name">Pro</div>
+      <div class="plan-price"><sup>$</sup>29<span> / mo</span></div>
+      <div class="plan-desc">For professional developers.</div>
+      <hr class="plan-divider">
+      <ul class="plan-features">
+        <li>Unlimited projects</li>
+        <li>500GB bandwidth</li>
+        <li>Priority support</li>
+        <li>Dedicated edge nodes</li>
+        <li>AI code review</li>
+        <li>Custom domains</li>
+      </ul>
+      <a href="#" class="plan-btn solid">Start Pro trial</a>
+    </div>
+    <div class="pricing-card reveal">
+      <div class="plan-name">Enterprise</div>
+      <div class="plan-price">Custom</div>
+      <div class="plan-desc">For teams that move fast.</div>
+      <hr class="plan-divider">
+      <ul class="plan-features">
+        <li>Everything in Pro</li>
+        <li>Unlimited bandwidth</li>
+        <li>Dedicated SLA</li>
+        <li>SSO & SAML</li>
+        <li>Audit logs</li>
+        <li>On-prem option</li>
+      </ul>
+      <a href="#" class="plan-btn outline">Talk to sales</a>
+    </div>
+  </div>
+</section>
+
+<!-- Testimonials Carousel Section -->
+<section id="testimonials">
+  <div class="testimonials-header">
+    <div>
+      <div class="section-label reveal">Social Proof</div>
+      <h2 class="section-title reveal">Teams love NexaFlow.</h2>
+    </div>
+  </div>
+  <div class="testimonials-grid">
+    <div class="testimonial-card reveal">
+      <div class="star-row">
+        <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span>
+      </div>
+      <div class="quote-icon">"</div>
+      <p class="testimonial-text">We cut our deployment time from 45 minutes to under 90 seconds. NexaFlow didn't just improve our workflow — it fundamentally changed how we think about shipping.</p>
+      <div class="testimonial-author">
+        <div class="author-avatar">SR</div>
+        <div>
+          <div class="author-name">Sophia Ramirez</div>
+          <div class="author-role">CTO, Lattice Systems</div>
+        </div>
+      </div>
+    </div>
+    <div class="testimonial-card reveal">
+      <div class="star-row">
+        <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span>
+      </div>
+      <div class="quote-icon">"</div>
+      <p class="testimonial-text">The AI code review alone paid for itself in the first week. It caught a SQL injection vulnerability that three human reviewers had missed. That's extraordinary.</p>
+      <div class="testimonial-author">
+        <div class="author-avatar">MK</div>
+        <div>
+          <div class="author-name">Marcus Kim</div>
+          <div class="author-role">Lead Engineer, Driftwave</div>
+        </div>
+      </div>
+    </div>
+    <div class="testimonial-card reveal">
+      <div class="star-row">
+        <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span>
+      </div>
+      <div class="quote-icon">"</div>
+      <p class="testimonial-text">As a solo founder, NexaFlow gives me the infrastructure of a 20-person team. I ship features on Friday afternoons now. That used to be unthinkable.</p>
+      <div class="testimonial-author">
+        <div class="author-avatar">AL</div>
+        <div>
+          <div class="author-name">Anika Larsson</div>
+          <div class="author-role">Founder, Inkshift</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Frequently Asked Questions -->
+<section id="faq">
+  <div class="section-label reveal">FAQ</div>
+  <h2 class="section-title reveal">Common questions.</h2>
+  <div class="faq-wrap">
+    <div class="faq-item reveal">
+      <button class="faq-question">
+        How does the free plan work?
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-answer">
+        <p>The Hobby plan is completely free, forever. No credit card required. You get 3 projects, 50GB of bandwidth per month, and access to our community support. When you're ready to scale, upgrading to Pro takes one click.</p>
+      </div>
+    </div>
+    <div class="faq-item reveal">
+      <button class="faq-question">
+        Can I self-host NexaFlow?
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-answer">
+        <p>Yes! Our Enterprise plan includes a self-hosted option, perfect for organizations with strict compliance or data residency requirements. We provide a Docker-based installer and dedicated support for your ops team during setup.</p>
+      </div>
+    </div>
+    <div class="faq-item reveal">
+      <button class="faq-question">
+        What frameworks does NexaFlow support?
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-answer">
+        <p>NexaFlow auto-detects and supports all major frameworks including Next.js, Nuxt, SvelteKit, Astro, Remix, Django, Rails, Laravel, and any static site generator. If we don't detect yours, you can define a custom build command.</p>
+      </div>
+    </div>
+    <div class="faq-item reveal">
+      <button class="faq-question">
+        How does AI code review work?
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-answer">
+        <p>When you open a pull request, NexaFlow analyzes the diff using a specialized model trained on security and performance patterns. It posts inline comments directly in GitHub or GitLab with specific, actionable feedback — not generic warnings.</p>
+      </div>
+    </div>
+    <div class="faq-item reveal">
+      <button class="faq-question">
+        Is my code private and secure?
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-answer">
+        <p>Absolutely. We never store your source code — we only access it temporarily during build time. All traffic is encrypted in transit and at rest. We're SOC 2 Type II certified and GDPR compliant. Your code is yours, always.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Call-To-Action Campaign -->
+<section id="cta">
+  <div class="section-label reveal" style="text-align:center">Get Started Today</div>
+  <h2 class="section-title reveal">Ready to ship<br>faster than ever?</h2>
+  <p class="cta-sub reveal">Join 40,000+ developers who've made NexaFlow their deployment platform of choice. Free to start, scales as you grow.</p>
+  <div class="cta-actions reveal">
+    <a href="#" class="btn-primary">Create free account →</a>
+    <a href="#" class="btn-secondary">Book a demo</a>
+  </div>
+</section>
+
+<!-- Brand Footer -->
+<footer>
+  <div class="footer-brand">
+    <a href="#" class="nav-logo">Nexa<span>Flow</span></a>
+    <p>The developer platform for teams who care about speed, quality, and developer experience.</p>
+  </div>
+  <div class="footer-col">
+    <h4>Product</h4>
+    <ul>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#pricing">Pricing</a></li>
+      <li><a href="#">Changelog</a></li>
+      <li><a href="#">Roadmap</a></li>
+      <li><a href="#">Status</a></li>
+    </ul>
+  </div>
+  <div class="footer-col">
+    <h4>Developers</h4>
+    <ul>
+      <li><a href="#">Documentation</a></li>
+      <li><a href="#">API Reference</a></li>
+      <li><a href="#">CLI</a></li>
+      <li><a href="#">Open Source</a></li>
+      <li><a href="#">Community</a></li>
+    </ul>
+  </div>
+  <div class="footer-col">
+    <h4>Company</h4>
+    <ul>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Careers</a></li>
+      <li><a href="#">Privacy</a></li>
+      <li><a href="#">Terms</a></li>
+    </ul>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 NexaFlow, Inc. All rights reserved.</span>
+    <span>Made for developers.</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
